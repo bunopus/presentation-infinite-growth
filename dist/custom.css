@@ -43,12 +43,35 @@
 .reveal section.title-slide img {
   width: 310px;
 }
+.reveal section .fishes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reveal section .fishes img {
+  width: 400px;
+}
+.reveal section .fishes h4 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.reveal section .curves div {
+  font-size: 0.6em;
+  padding-bottom: 30px;
+}
+.reveal section .curves img {
+  height: 600px;
+}
 .reveal section .smart {
   color: #b82525;
 }
 .reveal section .smart span.low {
   font-size: 0.7em;
   color: #100007;
+}
+.reveal section .sarka-sleep {
+  width: 400px;
+  animation: spin 100s linear infinite;
 }
 .reveal section blockquote {
   color: #100007;
